@@ -1,0 +1,28 @@
+{
+  "name": "fakevue",
+  "version": "1.0.0",
+  "description": "\"重走长征路\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defgao/fakeVue.git"
+  },
+  "keywords": [
+    "vue",
+    "javascript"
+  ],
+  "author": "高树达",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defgao/fakeVue/issues"
+  },
+  "homepage": "https://github.com/defgao/fakeVue#readme",
+  "dependencies": {
+    "snabbdom": "^0.7.4"
+  }
+}
