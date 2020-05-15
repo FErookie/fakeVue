@@ -6,7 +6,7 @@ var uid = 0;
 function initInternalComponent(vm, options) {
 }
 function initMixin(Vue) {
-    Vue._init = function (options) {
+    Vue.prototype._init = function (options) {
         var vm = this;
         vm._isVue = true;
         vm._uid = uid++;

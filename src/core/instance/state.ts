@@ -1,12 +1,13 @@
-import Vue from "./index";
+import VueInterface from './init'
 import isValidKey from "../util";
 
-function initData(vm: Vue) {
+function initData(vm: VueInterface) {
     let data = vm.$options.data;
     if(typeof data === 'function'){
         data = data.call(vm, vm);
     }
     vm.$data = data;
+    //这部只是想把data里的数据都绑到实例上
     Object.keys(data).forEach(key => {
         Object.defineProperty(vm, key, {
             configurable: true,
@@ -25,7 +26,7 @@ function initData(vm: Vue) {
     })
 }
 
-export default function initState(vm: Vue) {
+export default function initState(vm: VueInterface) {
     const opts = vm.$options;
     if (opts.data) {
         initData(vm);

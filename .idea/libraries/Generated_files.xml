@@ -3,14 +3,26 @@
     <properties>
       <sourceFilesUrls>
         <item url="file://$PROJECT_DIR$/src/core/instance/init.js" />
+        <item url="file://$PROJECT_DIR$/src/core/instance/lifecycle.js" />
         <item url="file://$PROJECT_DIR$/src/core/instance/render.js" />
         <item url="file://$PROJECT_DIR$/src/core/instance/state.js" />
+        <item url="file://$PROJECT_DIR$/src/core/observer/dep.js" />
+        <item url="file://$PROJECT_DIR$/src/core/observer/watcher.js" />
+        <item url="file://$PROJECT_DIR$/src/explore/parser/ASTElement.js" />
+        <item url="file://$PROJECT_DIR$/src/explore/parser/html-parser.js" />
+        <item url="file://$PROJECT_DIR$/src/shared/utils.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
       <root url="file://$PROJECT_DIR$/src/core/instance/init.js" />
+      <root url="file://$PROJECT_DIR$/src/core/instance/lifecycle.js" />
       <root url="file://$PROJECT_DIR$/src/core/instance/render.js" />
       <root url="file://$PROJECT_DIR$/src/core/instance/state.js" />
+      <root url="file://$PROJECT_DIR$/src/core/observer/dep.js" />
+      <root url="file://$PROJECT_DIR$/src/core/observer/watcher.js" />
+      <root url="file://$PROJECT_DIR$/src/explore/parser/ASTElement.js" />
+      <root url="file://$PROJECT_DIR$/src/explore/parser/html-parser.js" />
+      <root url="file://$PROJECT_DIR$/src/shared/utils.js" />
     </CLASSES>
     <SOURCES />
   </library>

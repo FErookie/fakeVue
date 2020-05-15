@@ -1,4 +1,4 @@
-import options from './init'
+import options, { initMixin } from './init'
 
 class Vue{
     $options: options;
@@ -10,7 +10,5 @@ class Vue{
 
     }
 }
-
-
-
+initMixin(Vue);
 export default Vue;
